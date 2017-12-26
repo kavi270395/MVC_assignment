@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Product</title>
+</head>
+<body  style="background-color:antiquewhite">
+    <div class="jumbotron text-center" style="background-color:chocolate">
+        <center>
+            <h1>Welcome to Product Page</h1>
+            
+        </center>
+    </div>
+    <div> 
+        @Html.ActionLink("Back", "Home", "Home")
+        </div><div>
+    @Html.ActionLink("Services Page", "Service", "Services")
+</div>
+    <div class="container">
+
+        <center><img src="~/Images/shopping.jpg" class="img-rounded" alt="Cinque Terre" width="400" height="300"></center>
+    </div>
+</body>
+</html>
